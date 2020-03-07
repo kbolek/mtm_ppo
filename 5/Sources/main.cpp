@@ -1,6 +1,5 @@
 #include "led.h"
-#include <stdio.h>
-
+#include "stepper.h"
 
 void Delay(int iTimeInMs){
 	volatile int iCycle;
@@ -14,11 +13,11 @@ void Delay(int iTimeInMs){
 
 int main(void)
 {
-	Led MyLed;
-	Myled.Init();
+	
+	Stepper MyStepper;
 
 	while(1){
 		Delay(100);
-		MyLed.StepLeft();
+		MyStepper.StepLeft();
 	}
 }
