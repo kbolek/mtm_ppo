@@ -1,6 +1,7 @@
 #ifndef STEPPER_H
 #define STEPPER_H
 #include "led.h"
+#include "ledinv.h"
 
 class Stepper {
 	public:

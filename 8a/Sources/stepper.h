@@ -10,7 +10,7 @@ class Stepper {
 	private:
 		Led MyLed;
 		unsigned char ucLedCtr;
-		void Step(enum Step eStep);
+		void Step(enum Step);
 		
 };   
 

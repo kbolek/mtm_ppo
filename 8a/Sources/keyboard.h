@@ -6,7 +6,8 @@ enum KeyboardState{
 	BUTTON_1,
 	BUTTON_2,
 	BUTTON_3,
-	BUTTON_4};
+	BUTTON_4
+};
 
 class Keyboard{
 	public:
