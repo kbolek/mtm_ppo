@@ -413,37 +413,22 @@
             <File>
               <FileName>led.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Sources\led.cpp</FilePath>
+              <FilePath>.\led.cpp</FilePath>
             </File>
             <File>
               <FileName>led.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Sources\led.h</FilePath>
+              <FilePath>.\led.h</FilePath>
             </File>
             <File>
               <FileName>main.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Sources\main.cpp</FilePath>
+              <FilePath>.\main.cpp</FilePath>
             </File>
             <File>
               <FileName>stepper.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Sources\stepper.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>stepper.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Sources\stepper.h</FilePath>
-            </File>
-            <File>
-              <FileName>keyboard.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Sources\keyboard.h</FilePath>
-            </File>
-            <File>
-              <FileName>keyboard.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\Sources\keyboard.cpp</FilePath>
+              <FilePath>.\stepper.cpp</FilePath>
             </File>
           </Files>
         </Group>

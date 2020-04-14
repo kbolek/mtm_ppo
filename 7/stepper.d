@@ -1,3 +1,3 @@
-.\stepper.o: Sources\stepper.cpp
-.\stepper.o: Sources\stepper.h
-.\stepper.o: Sources\led.h
+.\stepper.o: stepper.cpp
+.\stepper.o: stepper.h
+.\stepper.o: led.h

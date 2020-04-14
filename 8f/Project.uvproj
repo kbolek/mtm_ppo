@@ -413,52 +413,47 @@
             <File>
               <FileName>led.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Sources\led.cpp</FilePath>
+              <FilePath>.\led.cpp</FilePath>
             </File>
             <File>
               <FileName>led.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Sources\led.h</FilePath>
+              <FilePath>.\led.h</FilePath>
             </File>
             <File>
               <FileName>main.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Sources\main.cpp</FilePath>
+              <FilePath>.\main.cpp</FilePath>
             </File>
             <File>
               <FileName>stepper.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Sources\stepper.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>stepper.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Sources\stepper.h</FilePath>
-            </File>
-            <File>
-              <FileName>keyboard.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Sources\keyboard.h</FilePath>
+              <FilePath>.\stepper.cpp</FilePath>
             </File>
             <File>
               <FileName>keyboard.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Sources\keyboard.cpp</FilePath>
+              <FilePath>.\keyboard.cpp</FilePath>
             </File>
             <File>
-              <FileName>ledinv.h</FileName>
+              <FileName>keyboard.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Sources\ledinv.h</FilePath>
+              <FilePath>.\keyboard.h</FilePath>
             </File>
             <File>
               <FileName>ledinv.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Sources\ledinv.cpp</FilePath>
+              <FilePath>.\ledinv.cpp</FilePath>
             </File>
             <File>
               <FileName>ledpos.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Sources\ledpos.cpp</FilePath>
+              <FilePath>.\ledpos.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>stepper.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\stepper.h</FilePath>
             </File>
           </Files>
         </Group>

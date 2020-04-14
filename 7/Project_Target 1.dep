@@ -1,13 +1,12 @@
 Dependencies for Project 'Project', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x532C5432)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\Sources\led.cpp)(0x5E63AE20)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
-I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C5448)
-I (Sources\led.h)(0x5E63D05A)
-F (.\Sources\led.h)(0x5E63D05A)()
-F (.\Sources\main.cpp)(0x5E63CD32)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (Sources\led.h)(0x5E63D05A)
-I (Sources\stepper.h)(0x5E63D105)
-F (.\Sources\stepper.cpp)(0x5E63D167)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\stepper.o --omf_browse .\stepper.crf --depend .\stepper.d)
-I (Sources\stepper.h)(0x5E63D105)
-I (Sources\led.h)(0x5E63D05A)
-F (.\Sources\stepper.h)(0x5E63D105)()
+F (.\Startup.s)(0x532C6242)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\led.cpp)(0x5E94A316)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C6258)
+I (led.h)(0x5E9498EA)
+F (.\led.h)(0x5E9498EA)()
+F (.\main.cpp)(0x5E94A281)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (stepper.h)(0x5E958B78)
+I (led.h)(0x5E9498EA)
+F (.\stepper.cpp)(0x5E958B2C)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\stepper.o --omf_browse .\stepper.crf --depend .\stepper.d)
+I (stepper.h)(0x5E958B78)
+I (led.h)(0x5E9498EA)
