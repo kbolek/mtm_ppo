@@ -6,10 +6,10 @@
 class Stepper {
 	private:
 		Led MyLed;
+		LedInv MyLedInv;
 		unsigned char LedCtr;
 		void Step(enum Step);
-	public:
-		LedInv MyLedInv;
+	public:	
 		void StepLeft(void);
 		void StepRight(void);	
 };

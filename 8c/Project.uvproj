@@ -430,6 +430,31 @@
               <FileType>8</FileType>
               <FilePath>.\stepper.cpp</FilePath>
             </File>
+            <File>
+              <FileName>keyboard.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\keyboard.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>ledinv.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\ledinv.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>keyboard.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\keyboard.h</FilePath>
+            </File>
+            <File>
+              <FileName>ledinv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\ledinv.h</FilePath>
+            </File>
+            <File>
+              <FileName>stepper.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\stepper.h</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

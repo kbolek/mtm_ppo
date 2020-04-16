@@ -20,7 +20,7 @@ int main(void)
 		}
 	
 	while(1){
-		Delay(500);
+		Delay(100);
 		if(MyKeyboard.eRead() == BUTTON_1){
 			MyStepper.StepRight();
 		}

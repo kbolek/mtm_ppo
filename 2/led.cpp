@@ -39,22 +39,21 @@ void Led::On(unsigned char ucLedIndex)
 
 void Led::Step(enum Step eStep){
 	if(eStep == LEFT){
-		Led::LedCtr++;
-		Led::LedCtr = Led::LedCtr % 4;
-		Led::On(Led::LedCtr);
+		LedCtr++;
+		LedCtr = LedCtr % 4;
 	}
 	else if(eStep == RIGHT){
-		Led::LedCtr--;
-		Led::LedCtr = Led::LedCtr % 4;
-		Led::On(Led::LedCtr);
-	}else{
+		LedCtr--;
+		LedCtr = LedCtr % 4;
+		
 	}
+	On(Led::LedCtr);
 }
 
 void Led::StepLeft(void){
-	Led::Step(LEFT);
+	Step(LEFT);
 }
 
 void Led::StepRight(void){
-	Led::Step(RIGHT);
+	Step(RIGHT);
 }

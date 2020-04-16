@@ -4,23 +4,23 @@ enum Step{LEFT,RIGHT};
 
 void Stepper::Step(enum Step eStep){
 	if(eStep == LEFT){
-		Stepper::LedCtr++;
-		Stepper::LedCtr = Stepper::LedCtr % 4;
-		MyLed.On(Stepper::LedCtr);
+		LedCtr++;
+		LedCtr = LedCtr % 4;
+		MyLed.On(LedCtr);
 	}
 	else if(eStep == RIGHT){
 		LedCtr--;
-		Stepper::LedCtr = Stepper::LedCtr % 4;
-		MyLed.On(Stepper::LedCtr);
+		LedCtr = LedCtr % 4;
+		MyLed.On(LedCtr);
 	}else{
 	}
 }
 
 void Stepper::StepLeft(void){
-	Stepper::Step(LEFT);
+	Step(LEFT);
 }
 
 void Stepper::StepRight(void){
-	Stepper::Step(RIGHT);
+	Step(RIGHT);
 }
 

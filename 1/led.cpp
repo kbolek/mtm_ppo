@@ -42,14 +42,13 @@ void LedStep(enum Step eStep){
 	if(eStep == LEFT){
 		ucLedIndexStep++;
 		ucLedIndexStep = ucLedIndexStep % 4;
-		LedOn(ucLedIndexStep);
 	}
 	else if(eStep == RIGHT){
 		ucLedIndexStep--;
 		ucLedIndexStep = ucLedIndexStep % 4;
-		LedOn(ucLedIndexStep);
-	}else{
+		
 	}
+	LedOn(ucLedIndexStep);
 }
 
 void LedStepLeft(void){
