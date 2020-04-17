@@ -1,7 +1,5 @@
 #include "stepper.h"
 
-extern unsigned char ucInversion;
-
 enum Step{LEFT,RIGHT};
 
 void Stepper::Step(enum Step eStep){
