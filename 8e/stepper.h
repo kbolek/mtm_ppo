@@ -8,7 +8,6 @@ class Stepper {
 		Led *pMyLed;
 		unsigned char LedCtr;
 		void Step(enum Step);
-		unsigned char ucInversion; 
 	public:
 		void StepLeft(void);
 		void StepRight(void);	
